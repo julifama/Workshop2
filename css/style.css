@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Source+Sans+Pro:300,400";
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, .contenedor-grande .slider div h5, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h4, .contenedor-grande .slider div h5 {
+  font-size: 15pt;
+  color: #b0b0b0;
+  text-transform: uppercase; }
+
+* {
+  font-size: 11px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300; }
+
+body {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+li {
+  list-style: none; }
+
+header {
+  padding-bottom: 35px;
+  border-bottom: 1px solid #b0b0b0; }
+  header .encabezado {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0 48px 0; }
+    header .encabezado div {
+      flex-grow: 1; }
+      header .encabezado div a {
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        text-decoration: none; }
+      header .encabezado div span {
+        font-size: 25px;
+        margin-right: 8px; }
+    header .encabezado .buscar {
+      display: flex;
+      align-items: center; }
+    header .encabezado .imagen {
+      flex-grow: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      header .encabezado .imagen img {
+        width: 150px; }
+    header .encabezado .carrito {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      header .encabezado .carrito a p {
+        display: inline-block; }
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    header nav ul li {
+      display: inline-block;
+      padding: 0 25px; }
+      header nav ul li span {
+        font-size: 10px;
+        margin-left: 5px; }
+
+.filtros {
+  width: 205px;
+  float: left;
+  padding-top: 35px;
+  font-size: 12px; }
+  .filtros h5 {
+    text-transform: uppercase;
+    color: #b0b0b0;
+    letter-spacing: 2px; }
+  .filtros h6 {
+    font-weight: 400;
+    color: #5898c0;
+    padding-top: 20px; }
+    .filtros h6 span {
+      font-size: 8px;
+      padding-left: 5px; }
+  .filtros ul {
+    color: #000000; }
+  .filtros li {
+    padding: 20px 0 0 7px; }
+  .filtros h6:nth-of-type(3) {
+    color: #000000; }
+
+.contenedor-grande {
+  float: left;
+  padding-top: 35px;
+  width: 795px; }
+  .contenedor-grande .slider {
+    position: relative; }
+    .contenedor-grande .slider div {
+      position: absolute;
+      top: 108px;
+      left: 105px; }
+      .contenedor-grande .slider div h4, .contenedor-grande .slider div h5 {
+        font-size: 18px;
+        font-weight: 300;
+        color: #ffffff;
+        letter-spacing: 2px; }
+      .contenedor-grande .slider div h3 {
+        font-family: "Crimson Text", serif;
+        font-size: 45px;
+        color: #ffffff;
+        text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3);
+        margin: 22px 0 22px 0; }
+    .contenedor-grande .slider img {
+      width: 100%; }
+  .contenedor-grande .hombres {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; }
+    .contenedor-grande .hombres article {
+      display: inline-block;
+      width: 48%;
+      position: relative; }
+      .contenedor-grande .hombres article img {
+        width: 100%; }
+      .contenedor-grande .hombres article div {
+        position: absolute;
+        top: 43px;
+        left: 20px; }
+        .contenedor-grande .hombres article div h3 {
+          font-family: "Crimson Text", serif;
+          font-size: 35px;
+          color: #ffffff;
+          text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3);
+          margin: 22px 0 22px 0; }
+        .contenedor-grande .hombres article div a {
+          font-size: 14px;
+          font-weight: 300;
+          color: #ffffff;
+          letter-spacing: 2px;
+          text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
